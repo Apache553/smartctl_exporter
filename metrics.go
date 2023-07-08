@@ -271,4 +271,12 @@ var (
 		},
 		nil,
 	)
+	metricGrownDefect = prometheus.NewDesc(
+		"smartctl_device_grown_defect",
+		"",
+		[]string{
+			"device",
+		},
+		nil,
+	)
 )
